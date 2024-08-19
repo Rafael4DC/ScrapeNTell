@@ -18,7 +18,7 @@ intents.members = True
 client = commands.Bot(command_prefix='!', intents=intents)
 
 CHROME_PATH = '/usr/bin/google-chrome'
-CHROMEDRIVER_PATH = "chromedriver.exe"
+CHROMEDRIVER_PATH = "libs/chromedriver.exe"
 WINDOW_SIZE = "1920,1080"
 
 notify_list = []
