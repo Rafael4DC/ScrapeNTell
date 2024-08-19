@@ -63,7 +63,7 @@ async def website_check(ctx):
 
         if new_text == old_text:
             if time_last + datetime.timedelta(seconds=600) <= datetime.datetime.now():
-                channel = client.get_channel(1106723442465718352)
+                channel = client.get_channel(1)
                 await channel.send('Big Chilling as of ' + str(datetime.datetime.now()))
                 print("The lists are equal")
                 time_last = datetime.datetime.now()
